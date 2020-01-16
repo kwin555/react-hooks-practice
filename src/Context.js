@@ -7,6 +7,7 @@ const UserContext = createContext([
         suffix: 1,
         email: "bobbobberson@example.com"
     },
+    //updater function updates the old obj to new obj
     obj => obj
 ]);
 

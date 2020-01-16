@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-const stateComponent = () => {
+function stateComponent () {
     const[isGreen, setIsGreen] = useState(true);
 
     return (
