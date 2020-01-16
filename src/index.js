@@ -5,7 +5,11 @@ import Effect from "./Effect"
 import Context from "./Context";
 import Ref from "./Ref";
 import Reducer from "./Reducer";
+import Memo from "./Memo";
+import CallBack from "./CallBack";
+import LayoutEffect from "./LayoutEffects";
 import "./styles.css";
+import ImperativeHandleComponent from "./ImperativeHandle";
 
 function App () {
     return (
@@ -19,6 +23,14 @@ function App () {
             <Ref />
             <hr />
             <Reducer />
+            <hr />
+            <Memo />
+            <hr />
+            <CallBack />
+            <hr />
+            <LayoutEffect />
+            <hr />
+            <ImperativeHandleComponent />
         </div>
     ); 
 };
